@@ -189,7 +189,13 @@ func (c *Conn) BasicBanner() (string, error) {
 }
 
 func (c *Conn) Read(b []byte) (int, error) {
-	n, err := c.getUnderlyingConn().Read(b)
+	// n, err := c.getUnderlyingConn().Read(b)
+    // read all data
+    r := c.getUnderlyingConn()
+    n, err := io.ReadFull(r, b)
+    if err == io.EOF {
+        err = nil 
+    }
 	c.grabData.Read = string(b[0:n])
 	return n, err
 }
