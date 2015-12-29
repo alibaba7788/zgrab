@@ -192,10 +192,12 @@ func (c *Conn) Read(b []byte) (int, error) {
 	// n, err := c.getUnderlyingConn().Read(b)
     // read all data
     r := c.getUnderlyingConn()
-    n, err := io.ReadFull(r, b)
-    if err == io.EOF {
-        err = nil 
-    }
+    // n, err := io.ReadFull(r, b)
+    // if err == io.EOF {
+    //     err = nil 
+    // }
+    b, err := ioutil.ReadAll(r)
+    n = len(b)
 	c.grabData.Read = string(b[0:n])
 	return n, err
 }
