@@ -16,7 +16,7 @@ package zlib
 
 import (
 	"encoding/json"
-	"github.com/zmap/zgrab/ztools/processing"
+	"github.com/alibaba7788/zgrab/ztools/processing"
 )
 
 // GrabWorker implements ztools.processing.Worker

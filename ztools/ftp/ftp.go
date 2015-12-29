@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/zmap/zgrab/ztools/util"
+	"github.com/alibaba7788/zgrab/ztools/util"
 )
 
 var ftpEndRegex = regexp.MustCompile(`^(?:.*\r?\n)*([0-9]{3})( [^\r\n]*)?\r?\n$`)

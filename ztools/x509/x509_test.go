@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zmap/zgrab/ztools/x509/pkix"
+	"github.com/alibaba7788/zgrab/ztools/x509/pkix"
 )
 
 func TestParsePKCS1PrivateKey(t *testing.T) {

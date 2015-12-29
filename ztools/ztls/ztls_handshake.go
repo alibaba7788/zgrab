@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zmap/zgrab/ztools/keys"
-	"github.com/zmap/zgrab/ztools/x509"
+	"github.com/alibaba7788/zgrab/ztools/keys"
+	"github.com/alibaba7788/zgrab/ztools/x509"
 )
 
 var ErrUnimplementedCipher error = errors.New("unimplemented cipher suite")

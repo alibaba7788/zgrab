@@ -15,7 +15,7 @@
 package zlib
 
 import (
-	"github.com/zmap/zgrab/ztools/util"
+	"github.com/alibaba7788/zgrab/ztools/util"
 	"net"
 	"net/http"
 	"net/url"

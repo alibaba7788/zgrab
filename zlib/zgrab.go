@@ -19,13 +19,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/zmap/zgrab/ztools/ftp"
-	"github.com/zmap/zgrab/ztools/scada/bacnet"
-	"github.com/zmap/zgrab/ztools/scada/dnp3"
-	"github.com/zmap/zgrab/ztools/scada/fox"
-	"github.com/zmap/zgrab/ztools/ssh"
-	"github.com/zmap/zgrab/ztools/ztls"
-	"github.com/zmap/zgrab/ztools/scada/siemens"
+	"github.com/alibaba7788/zgrab/ztools/ftp"
+	"github.com/alibaba7788/zgrab/ztools/scada/bacnet"
+	"github.com/alibaba7788/zgrab/ztools/scada/dnp3"
+	"github.com/alibaba7788/zgrab/ztools/scada/fox"
+	"github.com/alibaba7788/zgrab/ztools/ssh"
+	"github.com/alibaba7788/zgrab/ztools/ztls"
+	"github.com/alibaba7788/zgrab/ztools/scada/siemens"
 )
 
 type Grab struct {

@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zmap/zgrab/ztools/ftp"
-	"github.com/zmap/zgrab/ztools/processing"
-	"github.com/zmap/zgrab/ztools/scada/dnp3"
-	"github.com/zmap/zgrab/ztools/scada/fox"
-	"github.com/zmap/zgrab/ztools/scada/siemens"
+	"github.com/alibaba7788/zgrab/ztools/ftp"
+	"github.com/alibaba7788/zgrab/ztools/processing"
+	"github.com/alibaba7788/zgrab/ztools/scada/dnp3"
+	"github.com/alibaba7788/zgrab/ztools/scada/fox"
+	"github.com/alibaba7788/zgrab/ztools/scada/siemens"
 )
 
 type GrabTarget struct {

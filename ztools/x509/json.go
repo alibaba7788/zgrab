@@ -12,8 +12,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/zmap/zgrab/ztools/keys"
-	"github.com/zmap/zgrab/ztools/x509/pkix"
+	"github.com/alibaba7788/zgrab/ztools/keys"
+	"github.com/alibaba7788/zgrab/ztools/x509/pkix"
 )
 
 type auxKeyUsage struct {

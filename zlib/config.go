@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zmap/zgrab/ztools/ssh"
-	"github.com/zmap/zgrab/ztools/x509"
-	"github.com/zmap/zgrab/ztools/zlog"
+	"github.com/alibaba7788/zgrab/ztools/ssh"
+	"github.com/alibaba7788/zgrab/ztools/x509"
+	"github.com/alibaba7788/zgrab/ztools/zlog"
 )
 
 type HTTPConfig struct {

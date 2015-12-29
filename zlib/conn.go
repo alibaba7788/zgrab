@@ -30,12 +30,12 @@ import (
 
 	"io"
 
-	"github.com/zmap/zgrab/ztools/ftp"
-	"github.com/zmap/zgrab/ztools/scada/bacnet"
-	"github.com/zmap/zgrab/ztools/ssh"
-	"github.com/zmap/zgrab/ztools/util"
-	"github.com/zmap/zgrab/ztools/x509"
-	"github.com/zmap/zgrab/ztools/ztls"
+	"github.com/alibaba7788/zgrab/ztools/ftp"
+	"github.com/alibaba7788/zgrab/ztools/scada/bacnet"
+	"github.com/alibaba7788/zgrab/ztools/ssh"
+	"github.com/alibaba7788/zgrab/ztools/util"
+	"github.com/alibaba7788/zgrab/ztools/x509"
+	"github.com/alibaba7788/zgrab/ztools/ztls"
 )
 
 var smtpEndRegex = regexp.MustCompile(`(?:^\d\d\d\s.*\r\n$)|(?:^\d\d\d-[\s\S]*\r\n\d\d\d\s.*\r\n$)`)

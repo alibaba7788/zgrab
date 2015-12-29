@@ -7,7 +7,7 @@ package x509_test
 import (
 	"encoding/pem"
 
-	"github.com/zmap/zgrab/ztools/x509"
+	"github.com/alibaba7788/zgrab/ztools/x509"
 )
 
 func ExampleCertificate_Verify() {
