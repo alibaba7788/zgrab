@@ -197,7 +197,7 @@ func (c *Conn) Read(b []byte) (int, error) {
     //     err = nil 
     // }
     b, err := ioutil.ReadAll(r)
-    n = len(b)
+    n := len(b)
 	c.grabData.Read = string(b[0:n])
 	return n, err
 }
